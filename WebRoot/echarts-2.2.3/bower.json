@@ -1,0 +1,28 @@
+{
+  "name": "echarts",
+  "version": "2.2.3",
+  "homepage": "",
+  "repository": "",
+  "authors": [
+    { "name": "Kener", "email": "" },
+    { "name": "Pissang", "email": "" },
+    { "name": "Erik", "email": "" },
+    { "name": "Yangji", "email": "" }
+  ],
+  "description": "Enterprise Charts 【Baidu Hi :  | Email : 】",
+  "main": ["build/dist/echarts.js"],
+  "keywords": [
+    "baidu",
+    "echarts",
+    "canvas",
+    "data visualization"
+  ],
+  "license": "BSD",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "doc"
+  ]
+}

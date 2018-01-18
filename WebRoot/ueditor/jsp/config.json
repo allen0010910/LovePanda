@@ -1,0 +1,72 @@
+{
+    "imageActionName": "uploadimage",
+    "imageFieldName": "upfile", 
+    "imageMaxSize": 2048000, 
+    "imageAllowFiles": [".png", ".jpg", ".jpeg", ".gif", ".bmp"], 
+    "imageCompressEnable": true, 
+    "imageCompressBorder": 1600, 
+    "imageInsertAlign": "none", 
+    "imageUrlPrefix": "/LovePandaJ", 
+    "imagePathFormat": "/attached/upload/image/{yyyy}{mm}{dd}/{time}{rand:6}", 
+    "scrawlActionName": "uploadscrawl", 
+    "scrawlFieldName": "upfile", 
+    "scrawlPathFormat": "/attached/upload/image/{yyyy}{mm}{dd}/{time}{rand:6}", 
+    "scrawlMaxSize": 2048000, 
+    "scrawlUrlPrefix": "/LovePandaJ",
+    "scrawlInsertAlign": "none",
+
+    
+    "snapscreenActionName": "uploadimage", 
+    "snapscreenPathFormat": "/attached/upload/image/{yyyy}{mm}{dd}/{time}{rand:6}", 
+    "snapscreenUrlPrefix": "/LovePandaJ", 
+    "snapscreenInsertAlign": "none", 
+
+    "catcherLocalDomain": ["127.0.0.1", "localhost", "img.baidu.com"],
+    "catcherActionName": "catchimage", 
+    "catcherFieldName": "source", 
+    "catcherPathFormat": "/attached/upload/image/{yyyy}{mm}{dd}/{time}{rand:6}", 
+    "catcherUrlPrefix": "LovePandaJ", 
+    "catcherMaxSize": 2048000, 
+    "catcherAllowFiles": [".png", ".jpg", ".jpeg", ".gif", ".bmp"], 
+
+    "videoActionName": "uploadvideo",
+    "videoFieldName": "upfile", 
+    "videoPathFormat": "/attached/upload/video/{yyyy}{mm}{dd}/{time}{rand:6}", 
+    "videoUrlPrefix": "LovePandaJ",
+    "videoMaxSize": 102400000, 
+    "videoAllowFiles": [
+        ".flv", ".swf", ".mkv", ".avi", ".rm", ".rmvb", ".mpeg", ".mpg",
+        ".ogg", ".ogv", ".mov", ".wmv", ".mp4", ".webm", ".mp3", ".wav", ".mid"], 
+
+    "fileActionName": "uploadfile", 
+    "fileFieldName": "upfile", 
+    "filePathFormat": "/attached/upload/file/{yyyy}{mm}{dd}/{time}{rand:6}", 
+    "fileUrlPrefix": "LovePandaJ",
+    "fileMaxSize": 51200000, 
+    "fileAllowFiles": [
+        ".png", ".jpg", ".jpeg", ".gif", ".bmp",
+        ".flv", ".swf", ".mkv", ".avi", ".rm", ".rmvb", ".mpeg", ".mpg",
+        ".ogg", ".ogv", ".mov", ".wmv", ".mp4", ".webm", ".mp3", ".wav", ".mid",
+        ".rar", ".zip", ".tar", ".gz", ".7z", ".bz2", ".cab", ".iso",
+        ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".pdf", ".txt", ".md", ".xml"
+    ], 
+
+    "imageManagerActionName": "listimage",
+    "imageManagerListPath": "/attached/upload/image/", 
+    "imageManagerListSize": 20, 
+    "imageManagerUrlPrefix": "LovePandaJ",
+    "imageManagerInsertAlign": "none", 
+    "imageManagerAllowFiles": [".png", ".jpg", ".jpeg", ".gif", ".bmp"], 
+
+    "fileManagerActionName": "listfile", 
+    "fileManagerListPath": "/attached/upload/file/", 
+    "fileManagerUrlPrefix": "LovePandaJ", 
+    "fileManagerListSize": 20, 
+    "fileManagerAllowFiles": [
+        ".png", ".jpg", ".jpeg", ".gif", ".bmp",
+        ".flv", ".swf", ".mkv", ".avi", ".rm", ".rmvb", ".mpeg", ".mpg",
+        ".ogg", ".ogv", ".mov", ".wmv", ".mp4", ".webm", ".mp3", ".wav", ".mid",
+        ".rar", ".zip", ".tar", ".gz", ".7z", ".bz2", ".cab", ".iso",
+        ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".pdf", ".txt", ".md", ".xml"
+    ] 
+}
